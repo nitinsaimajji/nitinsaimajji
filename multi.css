@@ -1,0 +1,8 @@
+div{
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-color: chocolate;
+}
+h1{
+    column-span: all;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       cse2
+   </title>
+    <style>
+.uli {
+  list-style-type: none;
+  font-size:22px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to top left, #ff9999 0%, #cc66ff 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lii {
+  float: left;
+}
+  
+.lii a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.lii a:hover:not(.active) {
+  background-color:lightcoral;
+  color : black;
+}
+
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .buttonn {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin: 0px 0px 0px 1200px;
+      }
+
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+      }
+      
+      .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+      a:link, a:visited  {
+       color: black;
+       text-align: center;
+       text-decoration: none;
+      display: inline-block;
+}
+.siz2{
+  font-size: 35px;  
+  color: rgb(23, 146, 228);
+  text-align:center;
+  text-shadow: 1px 1px 1px  rgb(224, 14, 137);
+  background:linear-gradient(to right, #a4f0c2 , #fbd786, #f7797d);  
+  padding-top:5px;
+}
+.heading{
+  font-size: 30px;
+}
+.para{
+  font-size: 22px;
+  margin:5px;
+}
+.heading1{
+  font-size:27px;
+}
+ </style>
+</head>
+<body>
+  <ul class="uli">
+    <li class="lii"><a  href="List of topics.html"  target="_blank">HOME</a></li>
+    <li class="lii"><a href="cse1.html"  target="_blank">Introduction to computers</a></li>
+    <li class="lii"><a href="cse2.html"  target="_blank">Introduction to OS</a></li>
+    <li class="lii"><a href="cse3.html"  target="_blank">Virtual Machine</a></li>
+    <li class="lii"><a href="cse4.html"  target="_blank">Networking</a></li>
+  </ul>
+
+<br><br><br><br>
+  <div class="siz2"><b>  Introduction to OS</b> </div>
+
+
+  <div class="heading"><b>Outine </b> </div>
+  <ul class="para">
+<li>	The History of Operating Systems</li>
+<li>	Operating System Architecture</li>
+<li>	Coordinating the Machine’s Activities</li>
+<li>	Handling Competition Among Processes</li>
+<li>Security</li>
+</ul>
+<br>
+<div class="heading"><b> History of Operating Systems</b> </div>
+<div class="para">
+  First Generation(1945-1955) - vaccum tubes,plug boards<br>
+  Second Generation(1955-1965) - transistors,batch Systems<br>
+ Third Generation(1965-1980) -IC'S and multiprogramming<br>
+ Fourth Generation(1980-present)-personal computers and workstations (network operating systems and distributed operating systems)<br>
+</div> <br>
+ <div class="heading"><b>Functions of Operating Systems </b> </div>
+ <div class="para">
+ *	Oversee operation of computer<br>
+ *	Store and retrieve files<br>
+ *	Schedule programs for execution<br>
+ *	Coordinate the execution of programs<br>
+
+</div>
+<br>
+ <div class="heading"><b>Evolution of Shared Computing </b> </div>
+ <div class="para">
+	Batch processing – ATM, Bank collect money in queue by token system etc.<br>
+	Interactive processing – IPL, Bus tickets etc..<br>
+	Requires real-time processing<br>
+  Time-sharing/Multitasking - Indian Railway Catering and Tourism Corporation(IRCTC) etc..<br>
+  Implemented by Multiprogramming<br>
+	Multiprocessor machines – Client and Server etc..<br> 
+</div>
+<br>
+<div class="heading"><b>Operating System Components </b> </div>
+<ul class="para">
+<li>User Interface: Communicates with users</li>
+<li>Text based (Shell)</li>
+<li> Graphical user interface (GUI)</li>
+<li>	Kernel: Performs basic required functions</li>
+<li>File manager</li>
+<li>Device drivers</li>
+<li>Memory manager</li>
+<li>Scheduler and dispatcher</li>
+</ul><br>
+<div class="heading"><b>File Manager </b> </div>
+<div class="para">
+	Directory (or Folder): A user-created bundle of files and other directories (subdirectories)<br>
+Directory Path: A sequence of directories within directories
+</div><br>
+<div class="heading"><b>Memory Manager </b> </div>
+<div class="para">
+	It allocates space in main memory.<br>
+	May create the illusion that the machine has more memory than it actually does (virtual memory) by playing a "shell game" in which blocks of data (pages) are shifted back and forth between main memory and mass storage.
+</div><br>
+<div class="heading"><b>Bootstrapping </b> </div>
+<div class="para">
+	Boot loader: Program in ROM (example of firmware).<br>
+	Run by the CPU when power is turned on.<br>
+	It transfers operating system from mass storage to main memory.
+	And also executes jump to operating system.
+</div><br>
+
+<div class="heading"><b>Processes </b> </div>
+<div class="para">
+
+Process: The activity of executing a program. <br>
+	Process State: Current status of the activity.<br>
+It is used to General purpose registers.
+Related portion of main memory.
+</div><br>
+<div class="heading"><b>Process Administration </b> </div>
+<div class="para">
+<em>Scheduler:</em> Adds new processes to the process table and removes completed processes from the process table<br>
+<i>Dispatcher:</i> Controls the allocation of time slices to the processes in the process table<br>
+The end of a time slice is signaled by an interrupt.<br>
+</div><br>
+ 
+  <button class="buttonn button2"><a href="cse3.html"  target="_blank" > NEXT >></a> </button>
+
+
+</body>
+</html>

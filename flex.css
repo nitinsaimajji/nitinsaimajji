@@ -1,0 +1,25 @@
+.flex{
+    background-color: indianred;
+    display: 
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.child{
+    margin: 30px;
+    padding: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.game h1,h2{
+    box-sizing: border-box;
+    padding-left: 320px;
+   }
+   
+   
+   
+   .game .form{
+       padding-left:320px;
+   }
+   

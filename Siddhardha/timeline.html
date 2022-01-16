@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        *,*::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #006E51;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #006E51;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #006E51;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: #74737A;
+  color:#c29ba3;
+  border: 2px solid #006E51;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  z-index:1;
+}
+.container .icon:hover {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: #c29ba3;
+  color: #74737A;
+  border: 2px solid #006E51;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  z-index:1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: #57838d;
+  position: relative;
+  border-radius: 60px 500px 500px 60px;
+}
+.container .content:hover {
+  padding: 30px 90px 30px 30px;
+  background: #74737A;
+  position: relative;
+  border-radius: 500px 500px 500px 500px;
+  transition:1s;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 60px 60px 500px;
+}
+.container.right .content:hover {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 500px 500px 500px;
+  background: #74737A;
+  transition:1s
+}
+
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #c29ba3;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #006E51 transparent transparent;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 50%;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="container left">
+          <i class="icon fab fa-cuttlefish"></i>
+          <div class="content">
+            <h2>C Language</h2>
+            <p style="text-align: justify;">
+                C is a programming language. It can be used to develop software like OS, DBMS, Compilers. It is an excellent language to learn to program for beginners.
+            </p>
+          </div>
+        </div>
+        <div class="container right">
+          <i class="icon fab fa-html5"></i>
+          <div class="content">
+            <h2>HTML</h2>
+            <p style="text-align: justify;">
+                HTML is the standard markup language for Web pages with HTML you can create your own Website.
+            </p>
+          </div>
+        </div>
+        <div class="container left">
+          <i class="icon fas fa-database"></i>
+          <div class="content">
+            <h2>Database</h2>
+            <p style="text-align: justify;">
+             Database is used in database development, data warehousing, or business intelligence.
+            </p>
+          </div>
+        </div>
+        <div class="container right">
+            <i class="icon fab fa-css3-alt"></i>
+          <div class="content">
+            <h2>CSS</h2>
+            <p style="text-align: justify;">
+            CSS is used to style pages and give more beauty to the website or the page.
+            </p>
+          </div>
+        </div>
+        <div class="container left">
+          <i class="icon fab fa-python"></i>
+          <div class="content">
+            <h2>Python</h2>
+            <p style="text-align: justify;">
+                Python is used in web development, data science, creating software prototypes. Fortunately for beginners, Python has simple easy-to-use syntax.
+            </p>
+          </div>
+        </div>
+        <div class="container right">
+          <i class="icon fab fa-node-js"></i>
+          <div class="content">
+            <h2>Java Script</h2>
+            <p style="text-align: justify;">
+            Java Script can execute on a web browser that allows us to make interactive webpages such as popup menus, animations, form validation, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

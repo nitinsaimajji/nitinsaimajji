@@ -1,0 +1,131 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+  }
+  
+  .box {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: block;
+    width: 600px;
+    height: 600px;
+    background: none;
+  }
+  @media all and (max-width: 600px) {
+    .box {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .stem {
+    position: absolute;
+    left: 48%;
+    top: 20%;
+    width: 10%;
+    height: 10%;
+    transform: skew(10deg);
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background:rgb(210, 232, 241);
+    animation: glow 30s ease-in-out infinite;
+  }
+
+  button{
+    position: relative;
+    height: 60px;
+    width: 200px;
+    margin: 0 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.5s;
+  }
+  button:first-child:hover{
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+  }
+  button:last-child:hover{
+    background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background-size: 400%;
+  }
+  button:first-child:before,
+  button:last-child:before{
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  button:first-child:hover:before,
+  button:last-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+  }
+  button:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  }
+  
+  @keyframes glow {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 360%;
+    }
+  }
+  
+  .apple-body {
+    position: absolute;
+    left: 31%;
+    top: 30%;
+    width: 24%;
+    height: 33%;
+    background: rgb(210, 232, 241);;
+    border-radius: 80% 80% 85% 85% / 65% 65% 100% 100%;
+    animation: glow 3s ease-in-out infinite;
+  }
+  .apple-body:after {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background:rgb(210, 232, 241);;
+    border-radius: 80% 80% 85% 85% / 65% 65% 100% 100%;
+    content: "";
+  }
+  
+  @keyframes glow {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+  }
+  
+  .bite {
+    position: absolute;
+    left: 60%;
+    top: 33%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background: black;
+  }

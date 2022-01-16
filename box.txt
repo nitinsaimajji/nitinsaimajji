@@ -1,0 +1,104 @@
+<!-- <section id="sec2">
+  <div class="verticalstyle">
+     <div class="wrapper">
+        <div class="table basic">
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">#</span>
+                <span class="price">01</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+                <span class="list-name">MINI CAPSULE TYPE</span>
+                <span class="icon check"> <i class="fa fa-check-circle" aria-hidden="true"></i></i></span>
+              </li>
+              <li>
+                <span class="list-name">PROBLEMS AND SOLUTIONS</span>
+                <span class="icon check"><i class="fa fa-check-circle" aria-hidden="true"></i></i></span>
+              </li>
+              <li>
+                <span class="list-name">PRACTICE QUIZES</span>
+                <span class="icon cross"><i class="fa fa-times"></i></span>
+              </li>
+              <li>
+                <span class="list-name">EXTRA CONCEPTS AND PROBLEMS</span>
+                <span class="icon cross"><i class="fa fa-times"></i></span>
+              </li>
+            </ul>
+          </ul>
+          <div class="btn"><button>READ</button></div>
+        </div>
+        <div class="table premium">
+          <div class="ribbon"><span>Recommend</span></div>
+         
+         
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">#</span>
+                <span class="price">02</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+                <span class="list-name">MINI CAPSULE TYPE</span>
+                <span class="icon check"> <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+              </li>
+              <li>
+                <span class="list-name">PROBLEMS AND SOLUTIONS</span>
+                <span class="icon check"> <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+              </li>
+              <li>
+                <span class="list-name">QUIZES</span>
+                <span class="icon check"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+              </li>
+              <li>
+                <span class="list-name">EXTRA CONCEPTS AND PROBLEMS</span>
+                <span class="icon cross"><i class="fa fa-times"></i></span>
+              </li>
+            </ul>
+          </ul>
+          <div class="btn"><button>READ</button></div>
+        </div>
+    
+        <div class="table ultimate">
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">#</span>
+                <span class="price">03</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+              <span class="list-name">MINI CAPSULE TYPE</span>
+              <span class="icon check"> <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <span class="list-name">PROBLEMS AND SOLUTIONS</span>
+              <span class="icon check"> <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <span class="list-name">QUIZES</span>
+              <span class="icon check"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <span class="list-name">EXTRA CONCEPTS AND PROBLEMS</span>
+              <span class="icon check"> <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button>READ</button></div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+</section> -->

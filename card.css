@@ -1,0 +1,133 @@
+
+body{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 900px;
+    background: black;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    transition: 0.5s;
+    background: #060c21;
+}
+
+.box:hover{
+    height: 400px;
+}
+
+.box .imgbx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.box .imgbx img{
+    max-width: 100%;
+    opacity: 1;
+    transition: 0.5s;
+}
+.box:hover .imgbx img{
+    opacity: 1;
+}
+
+.box:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    left: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index:-1;
+    animation: anima 5s linear infinite;
+}
+
+.box:after{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    left: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index:-2;
+    filter: blur(20px);
+    animation: anima 5s linear infinite;
+}
+
+.box:before,
+.box:after{
+    background: linear-gradient(235deg,#89ff00,#e73305,#00bcd4);
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+    background: linear-gradient(235deg,#ff005e,#8907aa,#fbff00);
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+    background: linear-gradient(235deg,#772aff,#e9b50a,#2196F3);
+    background: linear-gradient(235deg,#772aff,#150109,#2196F3);
+}
+
+
+@keyframes anima {
+    0%,100%{
+        filter: hue-rotate(50deg);
+        box-shadow: 0 0 30px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+
+    50%{
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+
+.box .content{
+    position: absolute;
+    bottom: 0;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center;
+}
+.box:hover .content{
+    opacity: 1;
+}
+
+.box .content h2{
+font-size: 20px;
+color: #fff;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 1px;
+}
+
+.box .content h2 span{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+}

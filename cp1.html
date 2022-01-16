@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       cp1
+   </title>
+    <style>
+.uli {
+  list-style-type: none;
+  font-size:22px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to top left, #ff9999 0%, #cc66ff 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lii {
+  float: left;
+}
+  
+.lii a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.lii a:hover:not(.active) {
+  background-color:lightcoral;
+  color : black;
+}
+
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .buttonn {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin: 0px 0px 0px 1200px;
+      }
+
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+      }
+      
+      .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 5px solid #008CBA;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+      a:link, a:visited  {
+       color: black;
+       text-align: center;
+       text-decoration: none;
+      display: inline-block;
+}
+.siz2{
+  font-size: 35px;  
+  color: rgb(23, 146, 228);
+  text-align:center;
+  text-shadow: 1px 1px 1px  rgb(224, 14, 137);
+  background:linear-gradient(to right, #a4f0c2 , #fbd786, #f7797d);  
+  padding-top:5px;
+}
+.heading{
+  font-size: 30px;
+}
+.para{
+  font-size: 22px;
+  margin:5px;
+}
+.heading1{
+  font-size:27px;
+}
+table {
+  width:80%;
+}
+table, th, td {
+  border: 4px solid rgb(93, 86, 124);
+  border-collapse: collapse;
+  
+}
+th {
+  padding: 15px;
+  text-align: left;
+}
+td {
+  padding: 5px;
+  text-align: left;
+}
+ </style>
+</head>
+<body>
+  <ul class="uli">
+    <li class="lii"><a  href="List of topics.html"  target="_blank">HOME</a></li>
+    <li class="lii"><a href="cp1.html"  target="_blank">Introduction to C</a></li>
+    <li class="lii"><a href="cp2.html"  target="_blank">Functions</a></li>
+    <li class="lii"><a href="cp3.html"  target="_blank">Arrays</a></li>
+    <li class="lii"><a href="cp4.html"  target="_blank">Pointers</a></li>
+  </ul>
+
+<br><br><br><br>
+  <div class="siz2"><b>  Introduction to C</b> </div>
+  <div class="heading"><b> Introduction </b> </div>
+<ul class="para">
+  <li>C was invented to write an operating system called UNIX.</li>
+<li>	C is a successor of B language which was introduced around 1970</li>
+<li>	The language was formalized in 1988 by the American National Standard Institue (ANSI).</li>
+<li>	By 1973 UNIX OS almost totally written in C.</li>
+<li>	Today C is the most widely used System Programming Language.</li>
+<li>	Most of the state of the art software have been implemented using C</li>
+</ul>
+
+<br>
+
+<div class="heading"><b>IF Statements in C</b> </div>
+<div class="para">
+An if statement can be followed by an optional else statement, which executes when the Boolean expression is false.<br>
+
+<b>Syntax</b><br>
+The syntax of an if...else statement in C programming language is <br>
+
+if(boolean_expression) {<br>
+   /* statement(s) will execute if the boolean expression is true */<br>
+} else {<br>
+   /* statement(s) will execute if the boolean expression is false */<br>
+}<br>
+If the Boolean expression evaluates to true, then the if block will be executed, otherwise, the else block will be executed.<br>
+
+C programming language assumes any non-zero and non-null values as true, and if it is either zero or null, then it is assumed as false value.<br>
+
+<br>
+<b>If...else if...else Statement</b><br>
+An if statement can be followed by an optional else if...else statement, which is very useful to test various conditions using single if...else if statement.<br>
+
+When using if...else if..else statements, there are few points to keep in mind −<br>
+
+An if can have zero or one else's and it must come after any else if's.<br>
+
+An if can have zero to many else if's and they must come before the else.<br>
+
+Once an else if succeeds, none of the remaining else if's or else's will be tested.<br>
+
+</div><br>
+<div class="heading"><b> Loops in C</b> </div>
+<div class="para">
+  C programming language provides the following types of loops to handle looping requirements.</div>
+
+  <table class="para">
+    <tr>
+      <th>Sl.No</th>
+      <th style="text-align:center;">Loop Types & Description</th> 
+  
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><b>While loop </b><br>Repeats a statement or group of statements while a given condition is true/it tests the condition before executing the loop body</td>
+  
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><b>For Loop</b><br>Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.</td>
+  
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><b>do-while loop</b><br>It is more like a while statement ,except that it tests the condition at the end of the loop bosy.</td>
+   
+    </tr>
+     <tr>
+      <td>4</td>
+      <td><b>Nested loops</b><br>You can use one or more loops inside any other while ,for,or,do..while loop</td>
+   
+    </tr>
+  </table><br>
+
+  <div class="heading"><b>  Loop Control Statements</b> </div>
+ <div class="para">
+  Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
+  C supports the following control statements.</div>
+  
+
+  <table class="para">
+    <tr>
+      <th>Sl.No</th>
+      <th style="text-align:center;">Loop Types & Description</th> 
+  
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><b>Break statement </b><br>Terminates the loop or sitch statementand transfers execution to the statement immediately following the loop or switch.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><b>Continue statement</b><br>Causes the loop to skip the remember of its body and immediately retest its condition prior to reiterating. </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><b>goto statement</b><br>Transfers control to the labeled statement.</td>
+   
+    </tr>
+  </table><br>
+
+  
+  <button class="buttonn button2"><a href="cp2.html"  target="_blank" > NEXT >></a> </button>
+
+
+</body>
+</html>

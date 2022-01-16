@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scroll.css">
+</head>
+<body>
+    <div id="progress"></div>
+    <div id="scroll"></div>
+    <section>
+        <h2>progressive scroll bar</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, laboriosam. Ipsam asperiores architecto ducimus, fuga exercitationem culpa quam quia sint ratione dicta ea enim adipisci minus tenetur a? Eaque quae esse nesciunt rem non accusantium porro veniam natus a harum, nulla minima dignissimos itaque sed iusto at voluptatem placeat! Maiores magnam amet asperiores, atque odio dignissimos et quidem deserunt est ad veritatis assumenda! Nesciunt a, cupiditate praesentium autem molestiae fugiat eum harum unde delectus hic officia recusandae obcaecati consequuntur ab voluptatum qui. Assumenda quod vero quo libero quia omnis doloremque. Blanditiis sunt fugiat natus unde, praesentium harum quidem neque facilis corporis cupiditate exercitationem saepe ipsum tempora, commodi nam? Facilis culpa veniam nihil eligendi, tempora recusandae aliquam earum, odio maxime quaerat ipsam id sequi doloremque officiis molestiae amet odit quasi voluptates uptatem cumque enim fugit, officia culpa laboriosam quo facere ad exercitationem eligendi reprehenderit praesentium, sapiente consequatur provident? Excepturi impedit dolor nemo dicta veniam deleniti quidem exercitationem est rem sit quasi ipsa aliquam iusto cum esse, itaque tempora fuga nobis atque corporis officia! Pariatur rerum et ducimus soluta, voluptate quae doloremque quia voluptatibus. Id, sapiente magni! Accusantium non nostrum atque cum officiis sequi aliquid? Porro eius temporibus ratione labore sapiente fugiat sed quas! Fuga tempora vero pariatur beatae quis. Reiciendis a fugit nostrum soluta autem earum, atque corrupti commodi non quae repellat at distinctio aliquam debitis perspiciatis necessitatibus 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, laboriosam. Ipsam asperiores architecto ducimus, fuga exercitationem culpa quam quia sint ratione dicta ea enim adipisci minus tenetur a? Eaque quae esse nesciunt rem non accusantium porro veniam natus a harum, nulla minima dignissimos itaque sed iusto at voluptatem placeat! Maiores magnam amet asperiores, atque odio dignissimos et quidem deserunt est ad veritatis assumenda! Nesciunt a, cupiditate praesentium autem molestiae fugiat eum harum unde delectus hic officia recusandae obcaecati consequuntur ab voluptatum qui. Assumenda quod vero quo libero quia omnis doloremque. Blanditiis sunt fugiat natus unde, praesentium harum quidem neque facilis corporis cupiditate exercitationem saepe ipsum tempora, commodi nam? Facilis culpa veniam nihil eligendi, tempora recusandae aliquam earum, odio maxime quaerat ipsam id sequi doloremque officiis molestiae amet odit quasi voluptates uptatem cumque enim fugit, officia culpa laboriosam quo facere ad exercitationem eligendi reprehenderit praesentium, sapiente consequatur provident? Excepturi impedit dolor nemo dicta veniam deleniti quidem exercitationem est rem sit quasi ipsa aliquam iusto cum esse, itaque tempora fuga nobis atque corporis officia! Pariatur rerum et ducimus soluta, voluptate quae doloremque quia voluptatibus. Id, sapiente magni! Accusantium non nostrum atque cum officiis sequi aliquid? Porro eius temporibus ratione labore sapiente fugiat sed quas! Fuga tempora vero pariatur beatae quis. Reiciendis a fugit nostrum soluta autem earum, atque corrupti commodi non quae repellat at distinctio aliquam debitis perspiciatis necessitatibus
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, laboriosam. Ipsam asperiores architecto ducimus, fuga exercitationem culpa quam quia sint ratione dicta ea enim adipisci minus tenetur a? Eaque quae esse nesciunt rem non accusantium porro veniam natus a harum, nulla minima dignissimos itaque sed iusto at voluptatem placeat! Maiores magnam amet asperiores, atque odio dignissimos et quidem deserunt est ad veritatis assumenda! Nesciunt a, cupiditate praesentium autem molestiae fugiat eum harum unde delectus hic officia recusandae obcaecati consequuntur ab voluptatum qui. Assumenda quod vero quo libero quia omnis doloremque. Blanditiis sunt fugiat natus unde, praesentium harum quidem neque facilis corporis cupiditate exercitationem saepe ipsum tempora, commodi nam? Facilis culpa veniam nihil eligendi, tempora recusandae aliquam earum, odio maxime quaerat ipsam id sequi doloremque officiis molestiae amet odit quasi voluptates uptatem cumque enim fugit, officia culpa laboriosam quo facere ad exercitationem eligendi reprehenderit praesentium, sapiente consequatur provident? Excepturi impedit dolor nemo dicta veniam deleniti quidem exercitationem est rem sit quasi ipsa aliquam iusto cum esse, itaque tempora fuga nobis atque corporis officia! Pariatur rerum et ducimus soluta, voluptate quae doloremque quia voluptatibus. Id, sapiente magni! Accusantium non nostrum atque cum officiis sequi aliquid? Porro eius temporibus ratione labore sapiente fugiat sed quas! Fuga tempora vero pariatur beatae quis. Reiciendis a fugit nostrum soluta autem earum, atque corrupti commodi non quae repellat at distinctio aliquam debitis perspiciatis necessitatibus
+        </p>
+    </section>
+  <script type="text/javascript">
+      let progress = document.getElementById('progress');
+      let totalHeight=document.body.scrollHeight-window.innerHeight;
+      window.onscroll=function(){
+          let progressHeight=(window.pageYOffset/totalHeight)*100;
+          progress.style.height = progressHeight + "%"
+      }
+  </script>
+
+</body>
+</html>

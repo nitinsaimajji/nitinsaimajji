@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       fds3
+   </title>
+    <style>
+.uli {
+  list-style-type: none;
+  font-size:22px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to top left, #ff9999 0%, #cc66ff 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lii {
+  float: left;
+}
+  
+.lii a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.lii a:hover:not(.active) {
+  background-color:lightcoral;
+  color : black;
+}
+
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .buttonn {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin: 0px 0px 0px 1200px;
+      }
+
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+      }
+      
+      .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+      a:link, a:visited  {
+       color: black;
+       text-align: center;
+       text-decoration: none;
+      display: inline-block;
+}
+.siz2{
+  font-size: 35px;  
+  color: rgb(23, 146, 228);
+  text-align:center;
+  text-shadow: 1px 1px 1px  rgb(224, 14, 137);
+  background:linear-gradient(to right, #a4f0c2 , #fbd786, #f7797d);  
+  padding-top:5px;
+}
+.heading{
+  font-size: 30px;
+}
+.para{
+  font-size: 22px;
+  margin:5px;
+}
+.heading1{
+  font-size:27px;
+}
+ </style>
+</head>
+<body>
+  <ul class="uli">
+    <li class="lii"><a  href="List of topics.html"  target="_blank">HOME</a></li>
+    <li class="lii"><a href="fds1.html"  target="_blank">Introduction to Data Structure</a></li>
+    <li class="lii"><a href="fds2.html"  target="_blank">Stack</a></li>
+    <li class="lii"><a href="fds3.html"  target="_blank">Queue</a></li>
+    <li class="lii"><a href="fds4.html"  target="_blank">Linked Lists</a></li>
+  </ul>
+
+<br><br><br><br>
+  <div class="siz2"><b>  QUEUE</b> </div>
+
+  <div class="heading"><b>Introduction to Queue</b> </div>
+  <div class="para">
+  A Queue is a linear structure which follows a particular order in which the operations are performed. <br>
+  The order is First In First Out <b>(FIFO)</b>.<br>
+  A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first.<br>
+   The difference between stacks and queues is in removing.
+    In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+</div><br>
+ <div class="heading"><b> Operations performed in the Queue</b> </div>
+ <div class="para">
+<b>Insertion and Deletion</b><br>
+  	ENQUEUE:- The process of inserting an element in the queue.<br>
+  	DEQUEUE:- The Process of Deleting an element from the queue.<br>
+  	ENQUEUE will be done at REAR end<br>
+  	DEQUEUE will be done at FRONT end<br>
+</div><br>
+  <div class="heading"><b>Conditions to be followed</b> </div>
+  <div class="para">
+  	Overflow:- Attempt to insert an element , when the queue is full.<br>
+  	Underflow:- Attempt to delete an element, when the queue is empty.<br>
+  Unlike stack, Queue has two ends,<br>
+	1) FRONT – points to starting element<br>
+  2) REAR – Points to the Last element.<br>
+
+</div><br>
+   <div class="heading"><b>Types of Queue</b> </div>
+   <ol type="1" class="para">
+  <li> Linear Queue </li>
+<li>Priority Queue </li>
+<li> Circular Queue</li>
+<li> Doubly ended Queue</li>
+  </ol>
+  <br>
+  <div class="heading"><b>  The Priority Queue ADT</b> </div>
+  <div class="para">
+  A priority Queue is an Extended version of the basic queue with the exception that a priority p must be assigned to each item at the time it is enqueued.<br>
+ 1.	A priority queue is a queue in which each item is assigned a priority and items with a higher priority are removed before those with a lower priority, irrespective of when they are added.<br>
+ 2.	Integer values are used for the priorities with a smaller integer value having a higher priority.<br>
+  There are two basic types of priority queues.They are Bounded and Unbounded Priority queues.<br>
+  1.	A bounded priority queue restricts the priorities to the integer values between zero and predefined upper limit value.<br>
+  2.  An unbounded priority queue places no limits on the range of priorities.<br>
+
+
+
+  <b>APPLICATIONS OF PRIORITY QUEUE:</b><br>
+  i. Prim's algorithm implementation can be done using priority queues. <br>
+  ii. Dijkstra's shortest path algorithm implementation can be done using priority queues.  <br>
+  iii. In traffic light, depending upon the traffic, the colors will be given priority. <br>
+
+</div>
+<br>
+<div class="heading"><b>Circular Queue</b> </div>
+<div class="para">
+1.In an Queue when elements are arranged in sequential manner but logically we assume it in circular format, then such queue is called as "Circular Queue".<br>
+2.It follows "First In First Out" method for insertion and deletion of elements.<br>
+3.Liner Queue may appear to be full although there may be space in the queue, this problem is overcome due to circular nature of circular queue.<br>
+4.A variable named "FRONT" stores position of the starting element of the queue. Its incremented on deletion of an element.<br>
+5.A variable named "REAR" stores position of the last element of the queue. Its incremented on Insertion of new element<br>
+6.To check Queue is Full or Not following condition is used front == (rear+1)%SIZE, if the condition is true then the Queue is full or else not full.<br>
+7.To check Queue is Empty or Not following condition is used rear == front, if the condition is true then the Queue is Empty or else not empty.<br>
+
+</div>
+
+<br>
+  <div class="heading"><b>Double Ended Queue</b> </div>
+  <div class="para">
+1.A Queue in which inserting and deleting of elements is done from both the ends, such queue is called as Double Ended Queue(DeQueue).<br>
+2.Dequeue always consists of homogeneous list of elements.<br>
+3.There are two types of DeQueue. A. Input restricted dequeues B. Output restricted dequeues<br>
+4.Input restricted dequeues allows insertion only at one end but allows deletion of element from both the ends.<br>
+5.Output restricted dequeues allwos deletions of elements only at one end but allows insertion of element from both the ends.<br>
+<br>
+
+  </div>
+  
+  
+  <button class="buttonn button2"><a href="fds4.html"  target="_blank" > NEXT >></a> </button>
+
+
+</body>
+</html>

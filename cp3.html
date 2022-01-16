@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       cp3
+   </title>
+    <style>
+.uli {
+  list-style-type: none;
+  font-size:22px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to top left, #ff9999 0%, #cc66ff 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lii {
+  float: left;
+}
+  
+.lii a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.lii a:hover:not(.active) {
+  background-color:lightcoral;
+  color : black;
+}
+
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .buttonn {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin: 0px 0px 0px 1200px;
+      }
+
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+      }
+      
+      .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+      a:link, a:visited  {
+       color: black;
+       text-align: center;
+       text-decoration: none;
+      display: inline-block;
+}
+.siz2{
+  font-size: 35px;  
+  color: rgb(23, 146, 228);
+  text-align:center;
+  text-shadow: 1px 1px 1px  rgb(224, 14, 137);
+  background:linear-gradient(to right, #a4f0c2 , #fbd786, #f7797d);  
+  padding-top:5px;
+}
+.heading{
+  font-size: 30px;
+}
+.para{
+  font-size: 22px;
+  margin:5px;
+}
+.heading1{
+  font-size:27px;
+}
+
+table {
+  width:80%;
+}
+table, th, td {
+  border: 4px solid rgb(93, 86, 124);
+  border-collapse: collapse;
+  
+}
+th {
+  padding: 15px;
+  text-align: left;
+}
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+ </style>
+</head>
+<body>
+  <ul class="uli">
+    <li class="lii"><a  href="List of topics.html"  target="_blank">HOME</a></li>
+    <li class="lii"><a href="cp1.html"  target="_blank">Introduction to C</a></li>
+    <li class="lii"><a href="cp2.html"  target="_blank">Functions in C</a></li>
+    <li class="lii"><a href="cp3.html"  target="_blank">Arrays</a></li>
+    <li class="lii"><a href="cp4.html"  target="_blank">Pointers</a></li>
+  </ul>
+
+<br><br><br><br>
+  <div class="siz2"><b><marquee>ARRAYS</marquee> </b> </div>
+  <div class="heading"><b> Definition </b> </div>
+<div class="para">
+  Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. 
+  An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+</div>
+
+<br>
+<div class="heading"><b>  Declaring Arrays </b> </div>
+ <div class="para">
+To declare an array in C, a programmer specifies the type of the elements and the number of elements required by an array as follows −<br>
+type arrayName [ arraySize ];<br>
+This is called a single-dimensional array. The arraySize must be an integer constant greater than zero and type can be any valid C data type. <br>
+<br>
+<b>Initializing Arrays</b>
+You can initialize an array in C either one by one or using a single statement <br>
+The number of values between braces { } cannot be larger than the number of elements that we declare for the array between square brackets [ ].<br>
+<b>Accessing Array Elements</b><br>
+An element is accessed by indexing the array name. This is done by placing the index of the element within square brackets after the name of the array<br>
+<b>Arrays in Detail</b><br>
+Arrays are important to C and should need a lot more attention. The following important concepts related to array should be clear to a C programmer −<br>
+</div><br>
+
+<table class="para">
+  <tr>
+    <th>Sl.No</th>
+    <th style="text-align:center;">Loop Types & Description</th> 
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><b>Multi-dimensional Arrays </b>C supports multidimensional arrays.The simplest form of the multidimensional array is the two-dimensional array.<br>  </td>
+
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><b>Passing arrays to functions</b><br>You can pass to the function a pointer to an array by specifying the array's name without an index.</td>
+
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><b>Return array from a function</b>C allows a function to return an array<br></td>
+ 
+  </tr>
+   <tr>
+    <td>4</td>
+    <td><b>Pointer to an array</b>You can generate a pointer to the first element of an array by simply specifying the array name,without any index.<br></td>
+ 
+  </tr>
+</table><br>
+
+
+
+  <button class="buttonn button2"><a href="cp4.html"  target="_blank" > NEXT >></a> </button>
+
+
+</body>
+</html>

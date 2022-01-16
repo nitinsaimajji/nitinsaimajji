@@ -1,0 +1,152 @@
+.playground {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .strawberry {
+    position: relative;
+    border-radius: 62% 54% 24% 70% / 68% 64% 20% 46%;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    background: red;
+    animation: glow 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seeds {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    transform: rotate(-45deg);
+    justify-content: center;
+  }
+  .seed {
+    width: 4px;
+    height: 4px;
+    background: yellow;
+    animation: glow 3s ease-in-out infinite;
+    margin: 4px 5px;
+    border-radius: 0% 100% 19% 80% / 0% 77% 21% 100%;
+  }
+  .row div:nth-of-type(2){
+    transform: translate(1px,-3px) rotate(45deg);
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  .row-1 div:nth-of-type(1) {
+    transform: rotate(80deg);
+  }
+  .row-2 div:nth-of-type(1) {
+    transform: rotate(70deg);
+  }
+  .row-2 div:nth-of-type(3) {
+    transform: rotate(10deg) translate(2px,2px);
+  }
+  .row-3 div:nth-of-type(3) {
+    transform: rotate(70deg) translate(2px,2px);
+  }
+  .shadow {
+    position: absolute;
+    border-radius: 62% 54% 24% 70% / 68% 64% 20% 46%;
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid #9e0517;
+    animation: glow 3s ease-in-out infinite;
+    opacity: 0.7;
+    bottom: 0px;
+  }
+  .shine {
+    position: absolute;
+    left: 30px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: radial-gradient(circle, white 0 2px, transparent 4px);
+    animation: glow 3s ease-in-out infinite;
+  }
+  .leaf-1 {
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 0% 100% 0% 28% / 0% 100% 0% 100% ;
+    border: 1px solid black;
+    transform: rotate(-80deg) translate(0px,-13px);
+    background: green;
+    animation: glow 3s ease-in-out infinite;
+  }
+  .leaf.leaf-2 {
+    position: absolute;
+    left: 0;
+    top: -15px; /* because the height of the leaf is 15px, shifting it up 15px here to make it easier to see */
+    width: 15px;
+    height: 15px;
+    transform: rotate(-55deg) translate(-23px, 1px);
+    z-index: -2;
+  }
+  .leaf-2 .left {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at -54% 78%, white 50%, black 50% calc(50% + 1px), transparent calc(50% + 1px));
+    animation: glow 3s ease-in-out infinite;
+  }
+  .leaf-2 .right {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 0 100%, green 0 14px, black 14px 15px, transparent 15px);
+    animation: glow 3s ease-in-out infinite;
+  }
+  .outside-shadow {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 80px;
+    height: 30px;
+    transform: translate(-4px, 7px);
+    background: radial-gradient(ellipse, #919090 0 25px, #aba9a9 25px 30px, transparent 30px);
+    animation: glow 3s ease-in-out infinite;
+  }
+  .leaf.leaf-3 {
+    transform: scaleX(-1) rotate(20deg) translate(-4px, 4px);
+  }
+  .leaf.leaf-4 {
+    transform: scaleX(-1) translate(-17px, 0px);
+  }
+  .stalk {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    border: 1px solid black;
+    border-bottom: 0 solid transparent;
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg) translate(50%, -3px);
+    background: green;
+    animation: glow 30s ease-in-out infinite;
+    z-index: -3;
+  }
+  @keyframes glow {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+  }
+
+  @keyframes glow {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 360%;
+    }
+  }

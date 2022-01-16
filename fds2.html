@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       fds2
+   </title>
+    <style>
+.uli {
+  list-style-type: none;
+  font-size:22px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to top left, #ff9999 0%, #cc66ff 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lii {
+  float: left;
+}
+  
+.lii a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.lii a:hover:not(.active) {
+  background-color:lightcoral;
+  color : black;
+}
+
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .buttonn {
+        border: none;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin: 0px 0px 0px 1200px;
+      }
+
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+      }
+      
+      .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+      a:link, a:visited  {
+       color: black;
+       text-align: center;
+       text-decoration: none;
+      display: inline-block;
+}
+.siz2{
+  font-size: 35px;  
+  color: rgb(23, 146, 228);
+  text-align:center;
+  text-shadow: 1px 1px 1px  rgb(224, 14, 137);
+  background:linear-gradient(to right, #a4f0c2 , #fbd786, #f7797d);  
+  padding-top:5px;
+}
+.heading{
+  font-size: 30px;
+}
+.para{
+  font-size: 22px;
+  margin:5px;
+}
+.heading1{
+  font-size:27px;
+}
+ </style>
+</head>
+<body>
+  <ul class="uli">
+    <li class="lii"><a  href="List of topics.html"  target="_blank">HOME</a></li>
+    <li class="lii"><a href="fds1.html"  target="_blank">Introduction to Data Structure</a></li>
+    <li class="lii"><a href="fds2.html"  target="_blank">Stacks</a></li>
+    <li class="lii"><a href="fds3.html"  target="_blank">Queue</a></li>
+    <li class="lii"><a href="fds4.html"  target="_blank">Linked Lists</a></li>
+  </ul>
+<br><br><br><br>
+  <div class="siz2"><b> STACKS </b> </div>
+  <div class="heading"><b>Introduction </b> </div>
+  <div class="para">
+  A <b>stack </b> is used to store data such that the last item inserted is the first item removed.<br>
+   (a) It is used to implement a last-in first-out <b>(LIFO)</b> type protocol.<br>
+   (b) The stack is a linear data structure in which new items are added, or existing items are removed from the same end, commonly referred to as the top of the stack.
+  </div>
+  <br>
+   <div class="heading"><b>Basic Operations </b> </div> 
+   <div class="para">
+  Stack operations may involve initializing the stack, using it and then de-initializing it.<br>
+   Apart from these basic stuffs, a stack is used for the following two primary operations –<br>
+   <ul class="para">
+    <li> push() − Pushing (storing) an element on the stack. </li>
+    <li> pop() − Removing (accessing) an element from the stack.</li>
+</ul>
+    To use a stack efficiently, we need to check the status of stack as well.
+     For the same purpose, the following functionality is added to stacks – <br>
+     <ul class="para">
+  <li> peek() − get the top data element of the stack, without removing it</li>
+  <li> isFull() − check if stack is full. </li>
+  <li>isEmpty() − check if stack is empty. </li>
+</ul>
+    At all times, we maintain a pointer to the last PUSHed data on the stack. <br>
+    As this pointer always represents the top of the stack, hence named top. <br>
+    The top pointer provides top value of the stack without actually removing it.
+
+</div>
+<br>
+  <div class="heading"><b>Stack Implementation</b> </div>
+  <div class="para">
+   1• An array is a random access data structure, where each element can be accessed directly and in constant time.
+    A typical illustration of random access is a book - each page of the book can be open independently of others.<br>
+   2• A linked list is a sequential access data structure, where each element can be accesed only in particular order.
+    A typical illustration of sequential access is a roll of paper or tape - all prior material must be unrolled in order to get to data you want.
+  </div>
+  <br>
+   <div class="heading"><b> Stack Application </b> </div>
+   <div class="para">
+
+  A. The Stack ADT is required by a number of applications encountered in computer science. <br>
+  B. Balanced Delimiters <br>
+  C.  Evaluating Postfix Expressions <br>
+  </div><br>
+  
+  
+  <button class="buttonn button2"><a href="fds3.html"  target="_blank" > NEXT >></a> </button>
+
+
+</body>
+</html>

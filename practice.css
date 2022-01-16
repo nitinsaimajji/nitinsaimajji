@@ -1,0 +1,19 @@
+*{
+ margin: 0;
+padding: 0; 
+box-sizing: border-box;
+}
+
+
+.para p{
+border: 2px solid red;
+margin-top: 150px;
+margin-left: 60px;
+margin-right: 20px;
+padding: 80px;
+height: 500px;
+width: 800px;
+}
+
+
+

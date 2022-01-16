@@ -1,0 +1,307 @@
+/*
+ CSS for the main interaction
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+}
+
+nav {
+	margin: 5px 0;
+	background-color: #8B0000;
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #8B0000;
+  margin: 0 20px;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+.navser{
+  margin: 0 100px 0;
+}
+.navser input{
+  border-radius: 8px;
+  padding: 10px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+  }
+  
+  .tabset .tab-panel {
+    display: none;
+  }
+  
+  .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+  .tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+  .tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+  .tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+  .tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+  .tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+  }
+  
+  /*
+   Styling
+  */
+  body {
+    font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+  }
+  
+  .tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 120px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+    left: 180px;
+  }
+  
+  .tabset > label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: #8d8d8d;
+    margin: 0 130px;
+  }
+  
+  .tabset > label:hover,
+  .tabset > input:focus + label {
+    color: #06c;
+  }
+  
+  .tabset > label:hover::after,
+  .tabset > input:focus + label::after,
+  .tabset > input:checked + label::after {
+    background: #06c;
+  }
+  
+  .tabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+  }
+  
+  .tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  /*
+   Demo purposes only
+  */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 30px;
+  }
+ 
+
+
+  .box{
+    background-color: #00ffbf;
+    box-shadow: 0 0 0 1px #E2E9ED;
+    padding: 60px 10px;
+    position: relative;
+    z-index: 0.2s all;
+  }
+  .box:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px #000000c4 ;
+    transform: scale(1.05);
+    transform: rotate3d(360deg);
+  }
+  .box .avtar{
+  height: 300px;
+  width: 300px;
+  margin: 0 50px 50px 50px;
+  }
+  .box .box_content{
+    margin: 10px 0;
+  }
+  .box .box_content .title{
+    color: #313435;
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin: 0;
+  }
+  .box .box_content .post{
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    line-height: 2.375rem;
+    color: #6F808A;
+  }
+  .box .icons{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.2s all;
+  }
+  .box:hover .icons{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .box .icons li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .box .icons li a{
+    color: #515F65;
+  }
+
+  .enroll{
+    background: hsl(249, 80%, 50%);
+    padding: 20px;
+    color: #fff;
+  }
+
+  button{
+    text-decoration:none;
+    background:linear-gradient(purple);
+    transition: 5s;
+  }
+  #sec6 h1 {
+    color: green;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    text-shadow: 5px 5px 6px rgb(255, 0, 0);
+    color: black;
+  }
+  #sec6 img {
+    float: left;
+    width: 400px;
+    height: 300px;
+    min-height:376px;
+    min-width:376px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 30px;
+    justify-content: center;
+  }
+  #sec6  p {
+    text-align: right;
+    width:100%;
+    text-align: justify;
+    padding-top: 70px;
+    padding-right: 50px;
+  }
+  
+  #sec6{
+    width: 100%;
+  height:850px;
+  background-image:url(Tranquil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 576 px;
+  min-width:576px;
+  font-size: 25px;
+  }
+  
+  #sec6 .compete{
+    margin-top:60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 80px;
+   justify-content: center;
+   text-decoration: none;
+   padding:30px;
+   text-transform: capitalize;
+  }
+  
+  #sec6 .compete b{
+    text-transform: uppercase;
+  }
+  
+  #sec6 img:hover{
+    float: left;
+    width:450px;
+    height: 380px;
+    min-height:376px;
+    min-width:376px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  

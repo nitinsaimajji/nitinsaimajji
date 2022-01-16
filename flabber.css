@@ -1,0 +1,198 @@
+
+.blog{
+    height: 150px;
+    width: 100%;
+background-image: url(Timber.jpg);
+background-size: cover;
+}
+
+
+.blog1 h1{
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 65px;
+    color: black;
+}
+
+.hm{
+background-image: url(Timber.jpg);
+background-size: cover;
+height: 1000px;
+width: 100%;
+box-sizing: border-box;
+}
+.hm .vde{
+   
+    padding-left: 430px;
+}
+
+.hm .vde1{
+    padding-top:50px;
+    padding-left: 430px;
+}
+
+
+.game{
+    background-image: url(Timber.jpg);
+    background-size: cover;
+}
+.game h1,h2{
+    box-sizing: border-box;
+    padding-left: 390px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+   }
+   
+   
+   
+   .game .form{
+       padding-left:320px;
+   }
+
+
+
+.flex{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.child{
+    background-color:white;
+    margin: 20px;
+     padding:5px; 
+    width: 230px;
+    height: 250px;
+    text-align: center;
+}
+
+.child img{
+width: 220px;
+height:120px;
+}
+
+ .flex:hover .child{
+    border: 4px solid red;
+} 
+
+.learn h1{
+    padding-left: 550px;
+    font-size: 35px;
+    padding-top:10px;
+    font-weight: bold;
+    background-image: url(Endless\ River.jpg);
+    background-size: cover;
+    height: 50px;
+}
+
+
+#multi{
+    background-image: url(Endless\ River.jpg);
+    background-size: cover;
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-color: rgb(38, 16, 233);
+    column-rule-width: 3px;
+    column-gap:1rem;
+}
+
+#multi h1{
+    text-align: center;
+    justify-content: center;
+    column-span: all;
+    font-size: 40px;
+}
+
+.grid{
+    background-color: cornflowerblue;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 200px 300px 400px;
+    grid-template-rows: 100px 200px auto; 
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+    justify-content:center;
+    
+}
+
+.grid-item{
+    background-color: wheat;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+
+}
+
+
+.by{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.hvr{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    transform-style: preserve-3d;
+    margin:20px;
+}
+
+.hvr .book{
+    position: relative;
+    width: 300px;
+    height: 467px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: rotateY(0deg);
+}
+
+.hvr .book:hover{
+    transform: rotateY(360deg);
+    box-shadow: 0px 20px  20px rgbA(0,0,0,0.2);
+}
+
+.hvr .book:active{
+    transform: rotateY(360deg);
+}
+
+.hvr .book:before{
+    content: '';
+    position: absolute;
+    width:50px;
+    height: 100%;
+    transform-origin: left;
+    background: url(side.jpeg);
+    background-position: center;
+    transform: rotateY(90deg);
+}
+
+.hvr .book:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    background: url(BK.jpg);
+    background-position: center;
+    transform: rotateY(180deg)translateZ(60px);
+}
+
+
+.hvr .book img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Project</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+        
+            <h2 class="navbar-brand mb-0 h1">My Project</h2>
+            
+            <div class="navbar-nav" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Browse
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Machine Learning</a>
+                            <a class="dropdown-item" href="#">Web Development</a>
+                            <a class="dropdown-item" href="#">App Development</a>
+                            <a class="dropdown-item" href="#">Data Science</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+                <div class="form-group has-search" style="margin-left: 10px;">
+                    
+                    <input type="text" class="form-control" style="width:300px; margin-top: 18px;" placeholder="What do you want to learn today?">
+                </div>
+            <div>
+                <ul class="navbar-nav float-right" style="margin-left: 750px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <style>
+                .flex-container {
+                  display: flex;
+                  flex-wrap: wrap;
+                  
+                }
+                
+                .flex-container > div {
+                    padding: 5px;
+                    flex: 1 1 25%;
+                    margin: 10px
+                }
+            
+            </style>
+
+            <button class="btn btn-outline-success" style="float: right; margin-top: 15px;">create project</button><br>
+            <br><br>
+            <h1 style="margin-bottom: 45px;">All Student Projects</h1>
+            <hr><br>
+
+            <br>
+            <br>
+            <div class="flex-container" style="margin-top: 60px;">
+                <div class="col-sm-4 rounded" style=" background-color: pink; height: 280px; padding-top: 10px;">
+                    <img src="https://www.brainstormindia.com/images/resources/web.jpg" alt="Web Development Image" data-toggle="tooltip" data-placement="left" title="Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services." style="height: 200px; width: 315px;border: 1px solid; margin-left: 13px; margin-top: 15px">
+                    <h3 style="text-align: center; margin-top: 10px;">Web Development</h3>
+                    
+                </div>
+                <div class="col-sm-4 rounded" style=" background-color: yellowgreen;height: 280px; ">
+                    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/machineLearning3.png" alt="Machine Learning image" data-toggle="tooltip" data-placement="top" title="Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention." style="height: 200px; width: 315px; border: 1px solid; margin-left: 13px; margin-top: 15px">
+                    <h3 style="text-align: center; margin-top: 10px;">Machine Learning</h3>
+                </div>
+                <div class="col-sm-4 rounded" style=" background-color: cornflowerblue;height: 280px;">
+                    <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/09/11134058/What-is-data-science-2.jpg" alt="Data Science image" data-toggle="tooltip" data-placement="right" title="Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains." style="height: 200px; width: 315px; border: 1px solid; margin-left: 13px; margin-top: 15px">
+                    <h3 style="text-align: center; margin-top: 10px;">Data Science</h3>
+                </div>
+                <br>
+                <div class="col-sm-4 rounded" style=" background-color: lightsalmon;height: 280px;">
+                    <img src="https://www.jellyfishtechnologies.com/new/images/mobile-apps.jpg" alt="App development image" data-toggle="tooltip" data-placement="left" title="Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones" style="height: 200px; width: 315px;border: 1px solid; margin-left: 13px; margin-top: 15px">
+                    <h3 style="text-align: center; margin-top: 10px;">App Development</h3>
+                </div>
+                <div class="col-sm-4 rounded" style=" background-color:peachpuff;height: 280px;">
+                    <img src="https://www.elmhurst.edu/wp-content/uploads/2020/03/cybersecurity-vs-information-security-illustration.jpg" alt="Cybersecurity image" data-toggle="tooltip" data-placement="bottom" title="Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks." style=" height: 200px; width: 315px; border: 1px solid; margin-left: 13px; margin-top: 15px">
+                    <h3 style="text-align: center; margin-top: 10px;">Cybersecurity</h3>
+                </div>
+                <br>
+                <div class="col-sm-4 rounded" style=" background-color:plum;height: 280px;margin-bottom: 105px;">
+                    <img src="https://miro.medium.com/max/1000/1*3_mx23ClCiZ85Ka1nipvZQ.png" alt="Software Development image" data-toggle="tooltip" data-placement="right" title="Software development is the process programmers use to build computer programs. The process, also known as the Software Development Life Cycle (SDLC), includes several phases that provide a method for building products that meet technical specifications and user requirements." style="height: 200px; width: 315px;border: 1px solid; margin-left: 13px; margin-top: 15px">
+                    <h3 style="text-align: center; margin-top: 10px;">Software Development</h3>
+                </div>
+            </div>
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+                })
+        </script>
+    </body>
+    
+</html>
