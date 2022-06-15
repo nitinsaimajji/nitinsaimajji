@@ -1,7 +1,7 @@
 ## Hi there 👋
 ### I am Nitin Sai .
 ### Pursuing B-Tech.
-### Currently working on Full stack web development !
+### Currently working on Web development
 
 # Flabber Educational Website
 
