@@ -9,7 +9,8 @@
   
 # Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=dracula)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=chartreuse-dark
+)
 
 ## Demo
 https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=sharing
