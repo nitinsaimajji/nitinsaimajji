@@ -9,7 +9,7 @@
   
 # Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=synthwave)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=merko)
 
 ## Demo
 https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=sharing
