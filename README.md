@@ -7,7 +7,7 @@
 
   ### Educational Website built with Html, Css & Javascript!!
   
-# stats
+# Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=radical)
 
