@@ -16,7 +16,7 @@
 ![](https://raw.githubusercontent.com/nitinsaimajji/stats/master/generated/overview.svg#gh-dark-mode-only)
 
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji)](https://git.io/streak-stats.svg#gh-dark-mode-only)
 
 # Languages
 
