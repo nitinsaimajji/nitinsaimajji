@@ -39,10 +39,12 @@
 
   ## Educational Website built with Html, Css & Javascript!!
 &nbsp;
-## Demo
+# Demo
 https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=sharing
+
 &nbsp;
-## Screen Veiws
+
+# Screen Veiws
 
 
 ![image](https://user-images.githubusercontent.com/91651103/149651304-f8c5889c-f9c3-4ff1-83c4-dfcaa3b51b32.png)
