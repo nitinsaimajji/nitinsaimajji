@@ -1,8 +1,8 @@
-### Hi there 👋
-# I am Nitin Sai .
+# Hi 👋 ,  I'm Nitin Sai  .
 ### Pursuing B-Tech.
 ### Currently working on Web development
 
+&nbsp;
   
 # Stats
 
@@ -14,6 +14,9 @@
 
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji&layout=compact&theme=vision-friendly-dark)](https://git.io/streak-stats)
+
+
+&nbsp;
 
 # Languages
 
@@ -30,13 +33,15 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
+&nbsp;
+
 # Flabber Educational Website
 
-  ### Educational Website built with Html, Css & Javascript!!
-
+  ## Educational Website built with Html, Css & Javascript!!
+&nbsp;
 ## Demo
 https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=sharing
-
+&nbsp;
 ## Screen Veiws
 
 
