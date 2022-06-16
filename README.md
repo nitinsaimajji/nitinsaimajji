@@ -13,8 +13,9 @@
 )
 
 
-![](https://raw.githubusercontent.com/nitinsaimajji/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/nitinsaimajji/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/nitinsaimajji/stats/master/generated/overview.svg#gh-dark-mode-only)
+
+![](https://raw.githubusercontent.com/nitinsaimajji/stats/master/generated/overview.svg#gh-light-mode-only)
 
 ## Demo
 https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=sharing
