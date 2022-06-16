@@ -1,7 +1,7 @@
-## Hi there 👋
+### Hi there 👋
 # I am Nitin Sai .
-## Pursuing B-Tech.
-## Currently working on Web development
+### Pursuing B-Tech.
+### Currently working on Web development
 
   
 # Stats
