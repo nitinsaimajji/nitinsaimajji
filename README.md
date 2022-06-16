@@ -13,7 +13,7 @@
 )
 
 
-![](https://raw.githubusercontent.com/nitinsaimajji/stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/nitinsaimajji/stats/master/generated/overview.svg#gh-dark-mode-only)
 
 
 
