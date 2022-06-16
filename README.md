@@ -1,11 +1,8 @@
 ## Hi there 👋
-### I am Nitin Sai .
-### Pursuing B-Tech.
-### Currently working on Web development
+# I am Nitin Sai .
+## Pursuing B-Tech.
+## Currently working on Web development
 
-# Flabber Educational Website
-
-  ### Educational Website built with Html, Css & Javascript!!
   
 # Stats
 
@@ -33,6 +30,9 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
+# Flabber Educational Website
+
+  ### Educational Website built with Html, Css & Javascript!!
 
 ## Demo
 https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=sharing
