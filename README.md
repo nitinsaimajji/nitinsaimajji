@@ -50,10 +50,4 @@ https://drive.google.com/file/d/14VSOSgY_Jx04dW7eHZ_SJNZc0Nlyp2bW/view?usp=shari
 ![image](https://user-images.githubusercontent.com/91651103/149651430-cecaa01a-c8a9-491f-b982-5ca2d095f9ae.png)
 
 
-## Requirements
-1.setting up vs code for project 
-2.Normal css and javascript .
-
-## Usage
-1. Fork the repository and clone it.
 
