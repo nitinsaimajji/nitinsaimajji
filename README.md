@@ -1,6 +1,6 @@
 # Hi 👋 ,  I'm Nitin Sai  .
 ### Pursuing B-Tech.
-### Currently working on Web development
+### Currently working on Web development , data science 
 
 &nbsp;
   
