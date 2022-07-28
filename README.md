@@ -10,9 +10,6 @@
 )
 
 
-![](https://raw.githubusercontent.com/nitinsaimajji/stats/master/generated/overview.svg#gh-dark-mode-only)
-
-
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji&layout=compact&theme=vision-friendly-dark)](https://git.io/streak-stats)
 
 
