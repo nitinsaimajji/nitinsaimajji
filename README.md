@@ -6,9 +6,9 @@
   
 # Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=chartreuse-dark
+<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=chartreuse-dark
 )
-
+ -->
 
 <!-- [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji&layout=compact&theme=vision-friendly-dark)](https://git.io/streak-stats) -->
 
