@@ -4,7 +4,7 @@
 
 &nbsp;
   
-# Stats
+<!-- # Stats -->
 
 <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=chartreuse-dark
 )
