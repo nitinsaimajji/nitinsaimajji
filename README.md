@@ -1,9 +1,6 @@
 # Hi 👋 ,  I'm Nitin Sai  .
 ### Pursuing B-Tech.
 ### Currently working on Web development , data science 
-
-&nbsp;
-  
 <!-- # Stats -->
 
 <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=chartreuse-dark
