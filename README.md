@@ -10,7 +10,7 @@
 )
 
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji&layout=compact&theme=vision-friendly-dark)](https://git.io/streak-stats)
+<!-- [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=nitinsaimajji&layout=compact&theme=vision-friendly-dark)](https://git.io/streak-stats) -->
 
 
 &nbsp;
