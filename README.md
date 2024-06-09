@@ -1,6 +1,6 @@
 # Hi 👋 ,  I'm Nitin Sai  .
-### Pursuing B-Tech.
-### Currently working on Web development , data science 
+### I'm a Computer Science graduate skilled in cpp,python,mysql.I have also worked on deep learning and nlp projects.
+### Currently working on DSA , DBMS and Web development (backend)
 <!-- # Stats -->
 
 <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nitinsaimajji&theme=chartreuse-dark
